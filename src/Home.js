@@ -5,13 +5,13 @@ import { FaUser, FaEnvelope } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import Left from "./components/home/Left";
 import About from "./components/about/About";
-import Resume from "./components/resume/Resume";
+// import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 
 const Home = () => {
   const [about, setAbout] = useState(true);
-  const [resume, setResume] = useState(false);
+  // const [resume, setResume] = useState(false);
   const [projects, setProjects] = useState(false);
   const [contact, setContact] = useState(false);
 
@@ -25,7 +25,7 @@ const Home = () => {
           <span
             onClick={() =>
               setAbout(true) &
-              setResume(false) &
+              // setResume(false) &
               setProjects(false) &
               setContact(false)
             }
@@ -47,7 +47,7 @@ const Home = () => {
           <span
             onClick={() =>
               setAbout(false) &
-              setResume(false) &
+              // setResume(false) &
               setProjects(true) &
               setContact(false)
             }
@@ -88,7 +88,7 @@ const Home = () => {
           <span
             onClick={() =>
               setAbout(false) &
-              setResume(false) &
+              // setResume(false) &
               setProjects(false) &
               setContact(true)
             }
@@ -115,7 +115,7 @@ const Home = () => {
           {/* ======================== Smaller device content Start ======================== */}
           <div className="w-full h-full lgl:hidden bg-transparent rounded-2xl flex flex-col gap-6">
             <About />
-            <Resume />
+            {/* <Resume /> */}
             <Projects />
             <Contact />
           </div>
@@ -131,7 +131,7 @@ const Home = () => {
               </motion.div>
             )}
 
-            {resume && (
+            {/* {resume && (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -139,7 +139,7 @@ const Home = () => {
               >
                 <Resume />
               </motion.div>
-            )}
+            )} */}
             {projects && (
               <motion.div
                 initial={{ opacity: 0 }}
