@@ -21,4 +21,5 @@ export {
   workImgSeven,
   workImgEight,
   workImgNine,
+  workImgTen,
 };
