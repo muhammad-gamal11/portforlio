@@ -9,6 +9,7 @@ import {
   workImgEight,
   workImgThree,
   workImgNine,
+  workImgTen,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -71,14 +72,21 @@ const Projects = () => {
       category: "React Js",
       image: workImgSeven,
       href: "https://markdown-to-text.netlify.app/",
-      src: "",
+      src: "https://github.com/muhammad-gamal11/markdown",
     },
     {
       title: "Displaying a random user",
       category: "React Js",
       image: workImgEight,
       href: "https://random-11-user.netlify.app/",
-      src: "",
+      src: "https://github.com/muhammad-gamal11/displaying-random-user",
+    },
+    {
+      title: "Search pictures",
+      category: "React Js",
+      image: workImgTen,
+      href: "https://search-00-pictures.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/search-pictures",
     },
   ];
 
