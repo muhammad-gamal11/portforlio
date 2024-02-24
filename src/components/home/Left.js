@@ -9,14 +9,14 @@ const Left = () => {
     words: ["Frontend Web Developer", "Web Designer", "UI Designer"],
     loop: true,
     typeSpeed: 30,
-    deleteSpeed: 20,
-    delaySpeed: 2000,
+    deleteSpeed: 30,
+    delaySpeed: 4000,
   });
   return (
-    <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-      <div className="w-full h-3/5">
+    <div className="w-full lgl:w-5/12  bg-bodyColor rounded-2xl shadow-testShwdow z-10">
+      <div className="w-full h-3/5 flex items-center pt-10 justify-center">
         <img
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-36 h-36 object-cover rounded-2xl"
           src={bannerImg}
           loading="priority"
           alt="bannerImage"

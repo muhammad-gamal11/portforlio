@@ -1,4 +1,4 @@
-import bannerImg from "./bannerImg.png";
+import bannerImg from "./image.png";
 import workImgOne from "./work/1-tour-html-css.jpeg";
 import workImgTwo from "./work/2-tea-station-html-css.jpeg";
 import workImgThree from "./work/3-html-css-portfolio.jpeg";

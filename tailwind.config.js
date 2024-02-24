@@ -14,13 +14,21 @@ module.exports = {
         xl: "1280px",
       },
       fontFamily: {
-        bodyfont: ["Poppins", "sans-serif"],
+        bodyfont: [
+          "Trebuchet MS",
+          "Lucida Sans Unicode",
+          "Lucida Grande",
+          "Lucida Sans",
+          "Arial Narrow Bold",
+          "sans-serif",
+        ],
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
-        bodyColor: "#191919",
+        bodyColor: "#222",
         textColor: "rgba(255, 255, 255, 0.85)",
-        designColor: "#edff20",
+        designColor: "#4da1ff",
+
         titleRoundBg:
           "linear-gradient(135deg,rgba(120,204,109,.15) 0%,rgba(120,204,109,1%) 100%)",
       },
