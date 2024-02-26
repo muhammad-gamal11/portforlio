@@ -5,8 +5,12 @@ const AboutMe = () => {
         <div className="py-6">
           <h2 className="font-semibold mb-1">Hello! I'm Gamal.</h2>
           <p className="text-base leading-6 ">
-            Frontend Web Developer from Egypt, Tanta. I have rich experience in
-            web site design and building.
+            With an innate curiosity for web technologies, I dive into the realm
+            of frontend development with fervor. My journey is fueled by a
+            desire to blend creativity with functionality, sculpting digital
+            landscapes that captivate and inspire. Driven by innovation and
+            fueled by challenges, I embark on each project with enthusiasm and
+            determination.
           </p>
         </div>
       </div>
@@ -26,7 +30,7 @@ const AboutMe = () => {
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-            Tanta , Egypt
+            Cairo , Egypt
           </li>
         </ul>
       </div>
