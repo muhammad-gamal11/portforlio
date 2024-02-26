@@ -10,6 +10,7 @@ import {
   workImgThree,
   workImgNine,
   workImgTen,
+  workImgEleven,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -87,6 +88,13 @@ const Projects = () => {
       image: workImgTen,
       href: "https://search-00-pictures.netlify.app/",
       src: "https://github.com/muhammad-gamal11/search-pictures",
+    },
+    {
+      title: "Search Movies",
+      category: "React Js",
+      image: workImgEleven,
+      href: "https://search-0-movies.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/searching-movies",
     },
   ];
 
