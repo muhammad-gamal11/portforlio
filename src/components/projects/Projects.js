@@ -5,7 +5,6 @@ import {
   workImgFour,
   workImgFive,
   workImgSix,
-  workImgSeven,
   workImgEight,
   workImgThree,
   workImgNine,
