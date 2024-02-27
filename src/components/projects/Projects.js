@@ -12,6 +12,7 @@ import {
   workImgTen,
   workImgEleven,
   workImgTwelve,
+  workImgThirteen,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -26,6 +27,7 @@ const Projects = () => {
       image: workImgOne,
       href: "https://backroadstours-css-html.netlify.app/",
       src: "https://github.com/muhammad-gamal11/backroad-tour-company-",
+      description: "",
     },
     {
       title: "Tea Station",
@@ -33,6 +35,7 @@ const Projects = () => {
       image: workImgTwo,
       href: "https://tea-111-station.netlify.app/",
       src: "https://github.com/muhammad-gamal11/tea-station",
+      description: "",
     },
     {
       title: "personal Profile",
@@ -40,6 +43,7 @@ const Projects = () => {
       image: workImgThree,
       href: "https://person-portfolio.netlify.app/",
       src: "https://github.com/muhammad-gamal11/personal-portforlio",
+      description: "",
     },
     {
       title: "Wikipedia clone",
@@ -47,6 +51,7 @@ const Projects = () => {
       image: workImgFour,
       href: "https://wikipedia-11.netlify.app/",
       src: "https://github.com/muhammad-gamal11/wikipedia-replica",
+      description: "",
     },
     {
       title: "Displaying GitHub Followers",
@@ -54,6 +59,7 @@ const Projects = () => {
       image: workImgNine,
       href: "https://displaying-followers.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-github-followers",
+      description: "",
     },
     {
       title: "Drinks",
@@ -61,6 +67,7 @@ const Projects = () => {
       image: workImgFive,
       href: "https://drinks-11-api.netlify.app/",
       src: "https://github.com/muhammad-gamal11/drinks-api",
+      description: "",
     },
     {
       title: "Online Furniture Store",
@@ -68,13 +75,7 @@ const Projects = () => {
       image: workImgSix,
       href: "https://serenity-furniture-store.netlify.app/",
       src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
-    },
-    {
-      title: "MarkDown",
-      category: "React Js",
-      image: workImgSeven,
-      href: "https://markdown-to-text.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/markdown",
+      description: "",
     },
     {
       title: "Displaying a random user",
@@ -82,6 +83,7 @@ const Projects = () => {
       image: workImgEight,
       href: "https://random-11-user.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-random-user",
+      description: "",
     },
     {
       title: "Search pictures",
@@ -89,6 +91,7 @@ const Projects = () => {
       image: workImgTen,
       href: "https://search-00-pictures.netlify.app/",
       src: "https://github.com/muhammad-gamal11/search-pictures",
+      description: "",
     },
     {
       title: "Search Movies",
@@ -96,6 +99,7 @@ const Projects = () => {
       image: workImgEleven,
       href: "https://search-0-movies.netlify.app/",
       src: "https://github.com/muhammad-gamal11/searching-movies",
+      description: "",
     },
     {
       title: "Show GitHub Users",
@@ -103,6 +107,15 @@ const Projects = () => {
       image: workImgTwelve,
       href: "https://show-github-users.netlify.app/",
       src: "https://github.com/muhammad-gamal11/show-users/tree/main",
+      description: "",
+    },
+    {
+      title: "Sip & Savor",
+      category: "React Js",
+      image: workImgThirteen,
+      href: "https://sip-and-savor.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/sip-savor",
+      description: "",
     },
   ];
 
@@ -150,6 +163,7 @@ const Projects = () => {
               image={project.image}
               href={project.href}
               src={project.src}
+              description={project.description}
             />
           </div>
         ))}

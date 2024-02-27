@@ -1,6 +1,6 @@
-const ProjectsCard = ({ image, title, category, href, src }) => {
+const ProjectsCard = ({ image, title, category, href, src, description }) => {
   return (
-    <div className="w-full h-96 py-8 flex flex-col justify-center items-center border-b-[1px] border-b-zinc-800">
+    <div className="w-full h-full py-8 flex flex-col justify-center items-center border-b-[1px] border-b-zinc-800">
       <div className="w-full h-full mb-3 overflow-hidden relative cursor-pointer group">
         <img
           className="rounded-sm hover:rounded-xl w-full h-full object-cover scale-100 group-hover:scale-110 duration-300 cursor-pointer"
@@ -31,6 +31,10 @@ const ProjectsCard = ({ image, title, category, href, src }) => {
           Source Code
         </a>
       </div>
+      {/* <p className="text-xl mt-3 border-solid border-b-2 border-sky-500">
+        Description
+      </p>
+      <p className="mt-2">{description}</p> */}
     </div>
   );
 };

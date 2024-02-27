@@ -11,6 +11,7 @@ import workImgNine from "./work/profile-followers.png";
 import workImgTen from "./work/reactJS-search-images.jpg";
 import workImgEleven from "./work/search-movies.jpg";
 import workImgTwelve from "./work/show github users.jpg";
+import workImgThirteen from "./work/sip-savor.png";
 
 export {
   bannerImg,
@@ -26,4 +27,5 @@ export {
   workImgTen,
   workImgEleven,
   workImgTwelve,
+  workImgThirteen,
 };
