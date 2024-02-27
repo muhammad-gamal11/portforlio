@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail, FiSend } from "react-icons/fi";
 import { bannerImg } from "../../assets/index";
+import { IoDocumentText } from "react-icons/io5";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -68,7 +69,16 @@ const Left = () => {
             </span>
           </div>
         </div>
-        <div className="flex justify-center h-14">
+        <div className="flex h-14">
+          <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
+            <a
+              target="_blank/"
+              href="https://drive.google.com/file/d/1er3VqP3CwUc3GdeNqO59eJWNfYTX6c6Y/view?usp=sharing"
+            >
+              Resume
+            </a>
+            <IoDocumentText />
+          </button>
           <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             <a href="mailto:gamal9978@gmail.com">Contact me</a>
             <FiSend />
