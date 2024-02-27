@@ -10,6 +10,7 @@ import workImgEight from "./work/8-react-js random-user .png";
 import workImgNine from "./work/profile-followers.png";
 import workImgTen from "./work/reactJS-search-images.jpg";
 import workImgEleven from "./work/search-movies.jpg";
+import workImgTwelve from "./work/show github users.jpg";
 
 export {
   bannerImg,
@@ -24,4 +25,5 @@ export {
   workImgNine,
   workImgTen,
   workImgEleven,
+  workImgTwelve,
 };
