@@ -6,7 +6,7 @@ import {
   workImgFive,
   workImgSix,
   workImgEight,
-  workImgThree,
+  // workImgThree,
   workImgNine,
   workImgTen,
   workImgEleven,
@@ -34,14 +34,6 @@ const Projects = () => {
       image: workImgTwo,
       href: "https://tea-111-station.netlify.app/",
       src: "https://github.com/muhammad-gamal11/tea-station",
-      description: "",
-    },
-    {
-      title: "personal Profile",
-      category: "HTML, CSS",
-      image: workImgThree,
-      href: "https://person-portfolio.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/personal-portforlio",
       description: "",
     },
     {
