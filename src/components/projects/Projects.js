@@ -21,6 +21,38 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Show GitHub Users",
+      category: "React Js",
+      image: workImgTwelve,
+      href: "https://show-github-users.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/show-users/tree/main",
+      description: "",
+    },
+    {
+      title: "Search Movies",
+      category: "React Js",
+      image: workImgEleven,
+      href: "https://search-0-movies.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/searching-movies",
+      description: "",
+    },
+    {
+      title: "Online Furniture Store",
+      category: "Vanilla Js",
+      image: workImgSix,
+      href: "https://serenity-furniture-store.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
+      description: "",
+    },
+    {
+      title: "Drinks",
+      category: "Vanilla Js",
+      image: workImgFive,
+      href: "https://drinks-11-api.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/drinks-api",
+      description: "",
+    },
+    {
       title: "Tour company",
       category: "HTML, CSS",
       image: workImgOne,
@@ -52,22 +84,7 @@ const Projects = () => {
       src: "https://github.com/muhammad-gamal11/displaying-github-followers",
       description: "",
     },
-    {
-      title: "Drinks",
-      category: "Vanilla Js",
-      image: workImgFive,
-      href: "https://drinks-11-api.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/drinks-api",
-      description: "",
-    },
-    {
-      title: "Online Furniture Store",
-      category: "Vanilla Js",
-      image: workImgSix,
-      href: "https://serenity-furniture-store.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
-      description: "",
-    },
+
     {
       title: "Displaying a random user",
       category: "React Js",
@@ -84,22 +101,7 @@ const Projects = () => {
       src: "https://github.com/muhammad-gamal11/search-pictures",
       description: "",
     },
-    {
-      title: "Search Movies",
-      category: "React Js",
-      image: workImgEleven,
-      href: "https://search-0-movies.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/searching-movies",
-      description: "",
-    },
-    {
-      title: "Show GitHub Users",
-      category: "React Js",
-      image: workImgTwelve,
-      href: "https://show-github-users.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/show-users/tree/main",
-      description: "",
-    },
+
     {
       title: "Sip & Savor",
       category: "React Js",
