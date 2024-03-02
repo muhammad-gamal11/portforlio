@@ -13,6 +13,7 @@ import {
   workImgTwelve,
   workImgThirteen,
   workImgFourteen,
+  workImgSeven,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -28,6 +29,7 @@ const Projects = () => {
       href: "https://show-github-users.netlify.app/",
       src: "https://github.com/muhammad-gamal11/show-users/tree/main",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Search Movies",
@@ -36,6 +38,16 @@ const Projects = () => {
       href: "https://search-0-movies.netlify.app/",
       src: "https://github.com/muhammad-gamal11/searching-movies",
       description: "",
+      usedTechnology: "",
+    },
+    {
+      title: "My Portfolio",
+      category: "React Js",
+      image: workImgSeven,
+      // href: "https://gamal-portfolio.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/portforlio",
+      description: "",
+      usedTechnology: "",
     },
     {
       title: "Read about different technologies",
@@ -44,6 +56,7 @@ const Projects = () => {
       href: "https://technologies-news.netlify.app/",
       src: "https://github.com/muhammad-gamal11/technologies-news",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Online Furniture Store",
@@ -52,6 +65,7 @@ const Projects = () => {
       href: "https://serenity-furniture-store.netlify.app/",
       src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Drinks",
@@ -60,6 +74,7 @@ const Projects = () => {
       href: "https://drinks-11-api.netlify.app/",
       src: "https://github.com/muhammad-gamal11/drinks-api",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Tour company",
@@ -68,6 +83,7 @@ const Projects = () => {
       href: "https://backroadstours-css-html.netlify.app/",
       src: "https://github.com/muhammad-gamal11/backroad-tour-company-",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Tea Station",
@@ -76,6 +92,7 @@ const Projects = () => {
       href: "https://tea-111-station.netlify.app/",
       src: "https://github.com/muhammad-gamal11/tea-station",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Wikipedia clone",
@@ -84,6 +101,7 @@ const Projects = () => {
       href: "https://wikipedia-11.netlify.app/",
       src: "https://github.com/muhammad-gamal11/wikipedia-replica",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Displaying GitHub Followers",
@@ -92,6 +110,7 @@ const Projects = () => {
       href: "https://displaying-followers.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-github-followers",
       description: "",
+      usedTechnology: "",
     },
 
     {
@@ -101,6 +120,7 @@ const Projects = () => {
       href: "https://random-11-user.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-random-user",
       description: "",
+      usedTechnology: "",
     },
     {
       title: "Search pictures",
@@ -109,6 +129,7 @@ const Projects = () => {
       href: "https://search-00-pictures.netlify.app/",
       src: "https://github.com/muhammad-gamal11/search-pictures",
       description: "",
+      usedTechnology: "",
     },
 
     {
@@ -118,6 +139,7 @@ const Projects = () => {
       href: "https://sip-and-savor.netlify.app/",
       src: "https://github.com/muhammad-gamal11/sip-savor",
       description: "",
+      usedTechnology: "",
     },
   ];
 
@@ -130,7 +152,7 @@ const Projects = () => {
             .includes(selectedCategory.toLowerCase())
         );
 
-  const categories = ["All", "HTML, CSS", "Vanilla Js", "React Js"];
+  const categories = ["All", "React Js", "Vanilla Js", "HTML, CSS"];
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
@@ -156,16 +178,17 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-6">
         {filteredProjects.map((project, index) => (
           <div className="px-6" key={index}>
             <ProjectsCard
-              title={project.title}
-              category={project.category}
-              image={project.image}
-              href={project.href}
-              src={project.src}
-              description={project.description}
+              {...project}
+              // title={project.title}
+              // category={project.category}
+              // image={project.image}
+              // href={project.href}
+              // src={project.src}
+              // description={project.description}
             />
           </div>
         ))}

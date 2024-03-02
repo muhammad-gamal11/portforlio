@@ -1,4 +1,12 @@
-const ProjectsCard = ({ image, title, category, href, src, description }) => {
+const ProjectsCard = ({
+  image,
+  title,
+  category,
+  href,
+  src,
+  description,
+  usedTechnology,
+}) => {
   return (
     <div className="w-full h-full py-8 flex flex-col justify-center items-center border-b-[1px] border-b-zinc-800">
       <div className="w-full h-full mb-3 overflow-hidden relative cursor-pointer group">
