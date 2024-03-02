@@ -12,6 +12,7 @@ import {
   workImgEleven,
   workImgTwelve,
   workImgThirteen,
+  workImgFourteen,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -34,6 +35,14 @@ const Projects = () => {
       image: workImgEleven,
       href: "https://search-0-movies.netlify.app/",
       src: "https://github.com/muhammad-gamal11/searching-movies",
+      description: "",
+    },
+    {
+      title: "Read about different technologies",
+      category: "React Js",
+      image: workImgFourteen,
+      href: "https://technologies-news.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/technologies-news",
       description: "",
     },
     {
