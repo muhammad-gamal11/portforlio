@@ -2,18 +2,18 @@ import { useState } from "react";
 import {
   workImgOne,
   workImgTwo,
+  // workImgThree,
   workImgFour,
   workImgFive,
   workImgSix,
+  workImgSeven,
   workImgEight,
-  // workImgThree,
   workImgNine,
   workImgTen,
   workImgEleven,
   workImgTwelve,
   workImgThirteen,
   workImgFourteen,
-  workImgSeven,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -28,8 +28,7 @@ const Projects = () => {
       image: workImgTwelve,
       href: "https://show-github-users.netlify.app/",
       src: "https://github.com/muhammad-gamal11/show-users/tree/main",
-      description: "",
-      usedTechnology: "",
+      usedTechnology: "HTML, CSS, ReactJS, AJAX, API",
     },
     {
       title: "Search Movies",
@@ -37,7 +36,6 @@ const Projects = () => {
       image: workImgEleven,
       href: "https://search-0-movies.netlify.app/",
       src: "https://github.com/muhammad-gamal11/searching-movies",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -46,7 +44,6 @@ const Projects = () => {
       image: workImgSeven,
       // href: "https://gamal-portfolio.netlify.app/",
       src: "https://github.com/muhammad-gamal11/portforlio",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -55,7 +52,6 @@ const Projects = () => {
       image: workImgFourteen,
       href: "https://technologies-news.netlify.app/",
       src: "https://github.com/muhammad-gamal11/technologies-news",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -64,7 +60,6 @@ const Projects = () => {
       image: workImgSix,
       href: "https://serenity-furniture-store.netlify.app/",
       src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -73,7 +68,6 @@ const Projects = () => {
       image: workImgFive,
       href: "https://drinks-11-api.netlify.app/",
       src: "https://github.com/muhammad-gamal11/drinks-api",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -82,8 +76,7 @@ const Projects = () => {
       image: workImgOne,
       href: "https://backroadstours-css-html.netlify.app/",
       src: "https://github.com/muhammad-gamal11/backroad-tour-company-",
-      description: "",
-      usedTechnology: "",
+      usedTechnology: "HTML , CSS",
     },
     {
       title: "Tea Station",
@@ -91,8 +84,7 @@ const Projects = () => {
       image: workImgTwo,
       href: "https://tea-111-station.netlify.app/",
       src: "https://github.com/muhammad-gamal11/tea-station",
-      description: "",
-      usedTechnology: "",
+      usedTechnology: "HTML , CSS",
     },
     {
       title: "Wikipedia clone",
@@ -100,7 +92,6 @@ const Projects = () => {
       image: workImgFour,
       href: "https://wikipedia-11.netlify.app/",
       src: "https://github.com/muhammad-gamal11/wikipedia-replica",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -109,7 +100,6 @@ const Projects = () => {
       image: workImgNine,
       href: "https://displaying-followers.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-github-followers",
-      description: "",
       usedTechnology: "",
     },
 
@@ -119,7 +109,6 @@ const Projects = () => {
       image: workImgEight,
       href: "https://random-11-user.netlify.app/",
       src: "https://github.com/muhammad-gamal11/displaying-random-user",
-      description: "",
       usedTechnology: "",
     },
     {
@@ -128,7 +117,6 @@ const Projects = () => {
       image: workImgTen,
       href: "https://search-00-pictures.netlify.app/",
       src: "https://github.com/muhammad-gamal11/search-pictures",
-      description: "",
       usedTechnology: "",
     },
 
@@ -138,7 +126,6 @@ const Projects = () => {
       image: workImgThirteen,
       href: "https://sip-and-savor.netlify.app/",
       src: "https://github.com/muhammad-gamal11/sip-savor",
-      description: "",
       usedTechnology: "",
     },
   ];

@@ -4,7 +4,6 @@ const ProjectsCard = ({
   category,
   href,
   src,
-  description,
   usedTechnology,
 }) => {
   return (
@@ -39,10 +38,10 @@ const ProjectsCard = ({
           Source Code
         </a>
       </div>
-      {/* <p className="text-xl mt-3 border-solid border-b-2 border-sky-500">
-        Description
+      {/* <p className="text-xl mt-3 border-solid border-b-2 border-sky-500 mbs">
+        Used Technology
       </p>
-      <p className="mt-2">{description}</p> */}
+      <p className="mt-2">{usedTechnology}</p> */}
     </div>
   );
 };
