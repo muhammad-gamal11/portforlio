@@ -14,6 +14,7 @@ import {
   workImgTwelve,
   workImgThirteen,
   workImgFourteen,
+  workImgFifteen,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -22,6 +23,14 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const projects = [
+    {
+      title: "Modern Haven",
+      category: "React Js",
+      image: workImgFifteen,
+      href: "https://modern-haven.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/modern-haven",
+      usedTechnology: "",
+    },
     {
       title: "Show GitHub Users",
       category: "React Js",

@@ -13,6 +13,7 @@ import workImgEleven from "./work/search-movies.jpg";
 import workImgTwelve from "./work/show github users.jpg";
 import workImgThirteen from "./work/sip-savor.png";
 import workImgFourteen from "./work/read-about-technologies.png";
+import workImgFifteen from "./work/modern haven.webp";
 
 export {
   bannerImg,
@@ -30,4 +31,5 @@ export {
   workImgTwelve,
   workImgThirteen,
   workImgFourteen,
+  workImgFifteen,
 };

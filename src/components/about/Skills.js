@@ -26,8 +26,8 @@ const Skills = () => {
 
             <div className="py-4 border-b-[1px] border-zinc-800">
               <p className="text-base text-textColor -mb-1.5">
-                React Js (Vite,AJAX Redux, Redux Toolkit, AXIOS Js, styled
-                components)
+                React Js, NextJs, TypeScript (Vite,AJAX Redux, Redux Toolkit,
+                AXIOS Js, styled components)
               </p>
             </div>
 
