@@ -3,7 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail, FiSend } from "react-icons/fi";
 import { bannerImg } from "../../assets/index";
-import { IoDocumentText } from "react-icons/io5";
+// import { IoDocumentText } from "react-icons/io5";
 
 const Left = () => {
   const [text] = useTypewriter({
