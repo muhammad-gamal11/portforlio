@@ -1,7 +1,7 @@
 import bannerImg from "./image.png";
 import workImgOne from "./work/1-tour-html-css.jpeg";
 import workImgTwo from "./work/2-tea-station-html-css.jpeg";
-import workImgThree from "./work/3-html-css-portfolio.jpeg";
+import workImgThree from "./work/career-pilot.jpg";
 import workImgFour from "./work/4-vanilla-js wiki-logo.png";
 import workImgFive from "./work/5-vanilla-js drinks.jpg";
 import workImgSix from "./work/6-vanilla js-furniture.jpg";

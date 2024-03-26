@@ -70,15 +70,15 @@ const Left = () => {
           </div>
         </div>
         <div className="flex justify-center h-14">
-          {/* <button className="w-1/2 border-r-[1px] border-r-zinc-600 border-t-[1px] border-t-zinc-600 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
+          <button className="w-1/2 border-r-[1px] border-r-zinc-600 border-t-[1px] border-t-zinc-600 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             <a
               target="_blank/"
-              href=""
+              href="https://drive.google.com/file/d/1FM7pn72kNPDI5fgO1_DVaA5RBVKFHS_h/view"
             >
               Resume
             </a>
-            <IoDocumentText />
-          </button> */}
+            {/* <IoDocumentText /> */}
+          </button>
           <button className="w-1/2 border-t-[1px] border-t-zinc-600 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             <a href="mailto:gamal9978@gmail.com">Contact me</a>
             <FiSend />

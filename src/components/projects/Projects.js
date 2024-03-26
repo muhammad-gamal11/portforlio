@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   workImgOne,
   workImgTwo,
-  // workImgThree,
+  workImgThree,
   workImgFour,
   workImgFive,
   workImgSix,
@@ -24,6 +24,14 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Career Pilot",
+      category: "React Js",
+      image: workImgThree,
+      href: "https://career-pilot.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/CareerPilot",
+      usedTechnology: "",
+    },
+    {
       title: "Modern Haven",
       category: "React Js",
       image: workImgFifteen,
@@ -38,6 +46,22 @@ const Projects = () => {
       href: "https://show-github-users.netlify.app/",
       src: "https://github.com/muhammad-gamal11/show-users/tree/main",
       usedTechnology: "HTML, CSS, ReactJS, AJAX, API",
+    },
+    {
+      title: "Online Furniture Store",
+      category: "Vanilla Js",
+      image: workImgSix,
+      href: "https://serenity-furniture-store.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
+      usedTechnology: "",
+    },
+    {
+      title: "Sip & Savor",
+      category: "React Js",
+      image: workImgThirteen,
+      href: "https://sip-and-savor.netlify.app/",
+      src: "https://github.com/muhammad-gamal11/sip-savor",
+      usedTechnology: "",
     },
     {
       title: "Search Movies",
@@ -61,14 +85,6 @@ const Projects = () => {
       image: workImgFourteen,
       href: "https://technologies-news.netlify.app/",
       src: "https://github.com/muhammad-gamal11/technologies-news",
-      usedTechnology: "",
-    },
-    {
-      title: "Online Furniture Store",
-      category: "Vanilla Js",
-      image: workImgSix,
-      href: "https://serenity-furniture-store.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/Serenity-furniture-store",
       usedTechnology: "",
     },
     {
@@ -126,15 +142,6 @@ const Projects = () => {
       image: workImgTen,
       href: "https://search-00-pictures.netlify.app/",
       src: "https://github.com/muhammad-gamal11/search-pictures",
-      usedTechnology: "",
-    },
-
-    {
-      title: "Sip & Savor",
-      category: "React Js",
-      image: workImgThirteen,
-      href: "https://sip-and-savor.netlify.app/",
-      src: "https://github.com/muhammad-gamal11/sip-savor",
       usedTechnology: "",
     },
   ];
